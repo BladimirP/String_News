@@ -5,20 +5,11 @@ const Footer = () => {
   return (
     <div className="footer">
       <span className="name">
-        String News - {" "}
-        <a href="https://www.linkedin.com/in/piyush-eon" target="__blank">
-          Gestion de Noticias
-        </a>
+        String News - Gestión de Noticia
       </span>
       <hr style={{ width: "90%" }} />
       <div className="iconContainer">
-        <a href="https://www.instagram.com/roadsidecoder/" target="__blank">
-          <i className="fab fa-instagram-square fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/piyush-eon" target="__blank">
-          <i className="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://piyushjsx.netlify.app/" target="__blank">
+        <a href="https://bladimirpardo.atlassian.net/l/c/YNdq5sAL" target="__blank">
           <i className="fas fa-link fa-2x"></i>
         </a>
       </div>

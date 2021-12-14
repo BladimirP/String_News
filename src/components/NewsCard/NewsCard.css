@@ -5,8 +5,14 @@
   width: 100%;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   padding: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   border-radius: 5px;
+}
+.taks{
+  height: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .newsText {
@@ -61,6 +67,11 @@
   font-size: 16px;
   line-height: 22px;
   color: #44444d;
+}
+
+.rectangulo {
+  align-items: top;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 800px) {

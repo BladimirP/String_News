@@ -16,8 +16,6 @@ function App() {
 
   const newsApi = async () => {
     try {
-      const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-
       const news = await axios.get(
         `https://newsapi.org/v2/top-headlines?country=ar&apiKey=${apikey}&pageSize=${loadMore}&category=${category}`
       );
@@ -33,6 +31,7 @@ function App() {
     newsApi();
     // eslint-disable-next-line
   }, [newsResults, loadMore, category]);
+
 
   return (
     <div className="App" id="#home">

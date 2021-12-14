@@ -1,0 +1,25 @@
+:root {
+    --primary: #4638ff;
+    --warning: #ffd028;
+    --danger: #eb3f27;
+    --success: #75fa83;
+    --white: #fdfdfd;
+    --gray: #cccccc;
+    --lightgray: #dedede;
+    --dark: #181717;
+}
+
+.btn--primario{
+    border-radius: 8px;
+    font-size: 13px;
+    border: var(--gray);
+    background-color: var(--lightgray);
+    color: var(--white);
+}
+
+.btn--secundario{
+    border-radius: 8px;
+    font-size: 13px;
+    background-color: var(--white);
+    color: var(--dark);
+}

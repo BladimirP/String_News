@@ -11,7 +11,7 @@ const NavInshort = ({ setCategory }) => {
 
       <img
         style={{ cursor: "pointer" }}
-        src="https://assets.inshorts.com/website_assets/images/logo_inshorts.png"
+        src="https://image.flaticon.com/icons/png/512/1253/1253826.png"
         height="80%"
         alt="logo"
       />
