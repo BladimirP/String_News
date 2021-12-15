@@ -1,4 +1,4 @@
-# Este Proyecto fue creado por STING NEWS
+# Este Proyecto fue creado por STRING NEWS
     - Bladimir Pardo
     - Sebastian Oyarzun
     - Katherine Zapata
@@ -10,5 +10,4 @@
     -npm install @auth0/auth0-react
 
 # para correr: npm start
-
-# puedes colocar tu API-KEY en la carpeta DATA en el archivo config
+    -puedes colocar tu API-KEY en la carpeta DATA en el archivo config
